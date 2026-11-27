@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.6;
+    background-color: rgb(210, 216, 210);
+    color: #333;
+    text-align: center;
+}
+h1{
+    background-color: #333;
+    color: white;
+    padding: 20px 10%;
+}
+.am{
+    font-size: 24px;
+    font-weight: bold;
+    padding: 0 20px;
+    color: black;
+}
+.am p{
+    padding: 20px;
+    margin: 20px;
+
+}
+.am2 img{
+    border-radius: 100%;
+    border: solid #333;
+}
+.mah p{
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    border: solid rgb(0, 0, 0) ;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 4px;
+    /* width: 80px;
+    height: 80px; */
+}
+.p1{
+    text-decoration: none;
+    padding: 20px;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+nav {
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    color: #6c63ff; /* یه رنگ بنفش شیک */
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-right: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #3a30fc;
+}
+
+ 
